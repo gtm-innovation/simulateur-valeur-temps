@@ -428,10 +428,10 @@
 .mric-calc .mric-othercalc-item svg{flex-shrink:0;width:14px;height:14px;color:rgba(210,225,240,0.7);transition:all .2s}
 .mric-calc .mric-othercalc-item:hover svg{color:var(--teal);transform:translateX(2px)}
 @media(min-width:640px){
-  .mric-calc .mric-othercalc-grid{grid-template-columns:1fr 1fr 1fr;gap:0}
+  .mric-calc .mric-othercalc-grid{grid-template-columns:1fr 1fr 1fr;gap:12px 0}
   .mric-calc .mric-othercalc-item{border-bottom:none;padding:0 12px;border-right:1px solid rgba(0,245,192,0.08)}
-  .mric-calc .mric-othercalc-item:last-child{border-right:none;padding-right:0}
-  .mric-calc .mric-othercalc-item:first-child{padding-left:0}
+  .mric-calc .mric-othercalc-item:nth-child(3n){border-right:none;padding-right:0}
+  .mric-calc .mric-othercalc-item:nth-child(3n+1){padding-left:0}
   .mric-calc .mric-othercalc-desc{display:block}
 }
 
@@ -864,17 +864,38 @@
                   </div>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
                 </a>
-                <a href="https://moneyradar.org/simulateur-liberte-financiere/" class="mric-othercalc-item">
-                  <div>
-                    <div class="mric-othercalc-name">Liberté Financière</div>
-                    <div class="mric-othercalc-desc">Calculez le capital pour vivre de vos placements</div>
-                  </div>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                </a>
                 <a href="https://moneyradar.org/simulateur-objectif-financier/" class="mric-othercalc-item">
                   <div>
                     <div class="mric-othercalc-name">Objectif Financier</div>
                     <div class="mric-othercalc-desc">Calculez votre épargne mensuelle idéale</div>
+                  </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+                <a href="https://moneyradar.org/simulateur-liberte-financiere/" class="mric-othercalc-item">
+                  <div>
+                    <div class="mric-othercalc-name">Liberté Financière</div>
+                    <div class="mric-othercalc-desc">Quand pourrez-vous vivre de vos placements</div>
+                  </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+                <a href="https://moneyradar.org/simulateur-inflation-vs-investissement/" class="mric-othercalc-item">
+                  <div>
+                    <div class="mric-othercalc-name">Inflation vs Investissement</div>
+                    <div class="mric-othercalc-desc">Simulez l'érosion de votre épargne</div>
+                  </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+                <a href="https://moneyradar.org/simulateur-riche-pour-age/" class="mric-othercalc-item">
+                  <div>
+                    <div class="mric-othercalc-name">Riche pour votre âge</div>
+                    <div class="mric-othercalc-desc">Votre rang dans la distribution patrimoniale</div>
+                  </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+                <a href="https://moneyradar.org/simulateur-runway/" class="mric-othercalc-item">
+                  <div>
+                    <div class="mric-othercalc-name">Runway</div>
+                    <div class="mric-othercalc-desc">Combien de temps tiendrez-vous sans salaire</div>
                   </div>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
                 </a>
